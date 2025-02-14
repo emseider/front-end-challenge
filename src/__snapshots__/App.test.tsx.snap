@@ -1,0 +1,47 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App component > matches snapshot 1`] = `
+<DocumentFragment>
+  <h2>
+    Unexpected Application Error!
+  </h2>
+  <h3
+    style="font-style: italic;"
+  >
+    useNavigate() may be used only in the context of a &lt;Router&gt; component.
+  </h3>
+  <pre
+    style="padding: 0.5rem; background-color: rgba(200, 200, 200, 0.5);"
+  >
+    Error: useNavigate() may be used only in the context of a &lt;Router&gt; component.
+    at invariant (/Users/em/projects/front-end-challenge/node_modules/react-router/dist/development/index.js:327:11)
+    at useNavigateUnstable (/Users/em/projects/front-end-challenge/node_modules/react-router/dist/development/index.js:4276:3)
+    at useNavigate (/Users/em/projects/front-end-challenge/node_modules/react-router/dist/development/index.js:4273:46)
+    at InvoiceListPage (/Users/em/projects/front-end-challenge/src/pages/InvoiceListPage/InvoiceList.page.tsx:31:20)
+    at Object.react-stack-bottom-frame (/Users/em/projects/front-end-challenge/node_modules/react-dom/cjs/react-dom-client.development.js:22428:20)
+    at renderWithHooks (/Users/em/projects/front-end-challenge/node_modules/react-dom/cjs/react-dom-client.development.js:5757:22)
+    at updateFunctionComponent (/Users/em/projects/front-end-challenge/node_modules/react-dom/cjs/react-dom-client.development.js:8018:19)
+    at beginWork (/Users/em/projects/front-end-challenge/node_modules/react-dom/cjs/react-dom-client.development.js:9683:18)
+    at runWithFiberInDEV (/Users/em/projects/front-end-challenge/node_modules/react-dom/cjs/react-dom-client.development.js:543:16)
+    at performUnitOfWork (/Users/em/projects/front-end-challenge/node_modules/react-dom/cjs/react-dom-client.development.js:15052:22)
+  </pre>
+  <p>
+    💿 Hey developer 👋
+  </p>
+  <p>
+    You can provide a way better UX than this when your app throws errors by providing your own 
+    <code
+      style="padding: 2px 4px; background-color: rgba(200, 200, 200, 0.5);"
+    >
+      ErrorBoundary
+    </code>
+     or 
+    <code
+      style="padding: 2px 4px; background-color: rgba(200, 200, 200, 0.5);"
+    >
+      errorElement
+    </code>
+     prop on your route.
+  </p>
+</DocumentFragment>
+`;
